@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    container_name: codeflix-video-catalog-admin-micro
+    volumes:
+      - .:/home/node/app
